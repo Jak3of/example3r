@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/categoriaFragment">
+
+    <fragment
+        android:id="@+id/categoriaFragment"
+        android:name="pe.com.proyect3ro.CategoriaFragment"
+        android:label="fragment_categoria"
+        tools:layout="@layout/fragment_categoria" />
+    <fragment
+        android:id="@+id/offersFragment"
+        android:name="pe.com.proyect3ro.OffersFragment"
+        android:label="fragment_offers"
+        tools:layout="@layout/fragment_offers" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="pe.com.proyect3ro.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/productDetailsFragment2"
+        android:name="pe.com.proyect3ro.ProductDetailsFragment"
+        android:label="fragment_product_details"
+        tools:layout="@layout/fragment_product_details" />
+    <fragment
+        android:id="@+id/productsFragment"
+        android:name="pe.com.proyect3ro.ProductsFragment"
+        android:label="fragment_products"
+        tools:layout="@layout/fragment_products" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="pe.com.proyect3ro.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/supportFragment"
+        android:name="pe.com.proyect3ro.SupportFragment"
+        android:label="fragment_support"
+        tools:layout="@layout/fragment_support" />
+</navigation>
