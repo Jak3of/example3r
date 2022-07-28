@@ -29,9 +29,11 @@
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
+        app:menu="@menu/main_menu"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+        app:headerLayout="@layout/navbar_background"
         />
 
 </androidx.drawerlayout.widget.DrawerLayout>

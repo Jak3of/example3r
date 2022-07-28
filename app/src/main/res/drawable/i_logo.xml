@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@drawable/ic_logo"
+        android:start="9dp"
+        android:end="9dp"
+        android:top="9dp"
+        android:bottom="9dp"/>
+    <item android:drawable="@drawable/brown_background"
+       />
+
+</layer-list>

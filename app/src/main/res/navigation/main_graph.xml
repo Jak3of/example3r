@@ -3,23 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_graph"
-    app:startDestination="@id/categoriaFragment">
+    app:startDestination="@id/homeFragment">
 
-    <fragment
-        android:id="@+id/categoriaFragment"
-        android:name="pe.com.proyect3ro.CategoriaFragment"
-        android:label="fragment_categoria"
-        tools:layout="@layout/fragment_categoria" />
-    <fragment
-        android:id="@+id/offersFragment"
-        android:name="pe.com.proyect3ro.OffersFragment"
-        android:label="fragment_offers"
-        tools:layout="@layout/fragment_offers" />
     <fragment
         android:id="@+id/homeFragment"
         android:name="pe.com.proyect3ro.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/categoriaFragment"
+        android:name="pe.com.proyect3ro.CategoriaFragment"
+        android:label="fragment_categoria"
+        tools:layout="@layout/fragment_categoria" />
+
+
     <fragment
         android:id="@+id/productDetailsFragment2"
         android:name="pe.com.proyect3ro.ProductDetailsFragment"
